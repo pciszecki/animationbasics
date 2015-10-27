@@ -1,0 +1,26 @@
+.man3Animation {
+  height: 72px;
+  width: 51px;
+  background-image: url("../images/man3.png");
+  background-repeat: no-repeat;
+  animation: man3waving 1s steps(10) infinite; }
+
+@keyframes man3waving {
+  0% {
+    background-position: 0 0; }
+  100% {
+    background-position: -500px 0; } }
+.cat {
+  height: 187px;
+  width: 395px;
+  background-image: url("../images/cat.png");
+  background-repeat: no-repeat;
+  animation: catmoving 1s steps(12) infinite; }
+
+@keyframes catmoving {
+  0% {
+    background-position: 0 0; }
+  100% {
+    background-position: 0 -2392px; } }
+
+/*# sourceMappingURL=catwalk.css.map */
